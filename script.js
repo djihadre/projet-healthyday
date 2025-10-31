@@ -83,3 +83,37 @@ function showNutritionChart() {
     options: options
   });
 }
+function showNutritionChart() {
+  const ctx = document.getElementById("nutritionChart").getContext("2d");
+
+  // إذا فيه رسم سابق نحذفه قبل نرسم الجديد
+  if (window.nutritionChart) {
+    window.nutritionChart.destroy();
+  }
+
+  // نسب المكونات
+  const data = {
+    labels: ["كربوهيدرات 🍚", "بروتين 🥩", "دهون 🥑"],
+    datasets: [{
+      data: [50, 25, 25],
+      backgroundColor: ["#f4a261", "#2a9d8f", "#e76f51"]
+    }]
+  };
+
+  const options = {
+    plugins: {
+      legend: { position: "bottom" },
+      title: {
+        display: true,
+        text: "توزيع السعرات اليومية حسب المغذيات"
+      }
+    }
+  };
+
+  // إنشاء الرسم
+  window.nutritionChart = new Chart(ctx, {
+    type: "doughnut",
+    data: data,
+    options: options
+  });
+}
