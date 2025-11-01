@@ -24,4 +24,4 @@ A simple interactive web app that helps users calculate their daily calorie need
 Created as a university nutrition project to demonstrate the relationship between daily calorie needs and food balance.
 
 ## 💚 Author
-Developed by **djihad re** — Nutrition Student.
+Developed by **djihad rezgui** — Nutrition Student.
