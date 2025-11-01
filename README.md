@@ -21,7 +21,8 @@ A simple interactive web app that helps users calculate their daily calorie need
 3. Enter your details and view your results instantly.
 
 ## 🧠 Educational Purpose
-Created as a university nutrition project to demonstrate the relationship between daily calorie needs and food balance.
+Developed as part of a **university nutrition project** to illustrate the connection between **daily calorie intake** and **balanced eating**.
+
 
 ## 💚 Author
 Developed by **djihad rezgui** — Nutrition Student.
